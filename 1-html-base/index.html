@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: #fff;
+      }
+
+      html {
+        font-size: 16px;
+      }
+
+      body {
+        min-height: 100svh;
+        background: -webkit-linear-gradient(
+          to bottom,
+          #2c5364,
+          #203a43,
+          #0f2027
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to bottom,
+          #2c5364,
+          #203a43,
+          #0f2027
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      }
+
+      header {
+        height: 4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem;
+
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+
+      main {
+        height: calc(100svh - 4rem);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="/logo" alt="backup text" />
+      <nav>
+        <a href="/index.html">Home</a>
+        <a href="/blog.html">Blog</a>
+        <a href="/about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Home page</h1>
+    </main>
+  </body>
+</html>
